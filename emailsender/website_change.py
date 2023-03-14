@@ -19,7 +19,7 @@ class website_check():
 				hash2.update(url2.text.encode('utf-8'))
 				if (hash.hexdigest() != hash2.hexdigest()):
 					print("changed")
-					emails().send_welcome_email()
+					# emails().send_welcome_email()
 					hash = hash2
 				else:
 					print("not changed")
