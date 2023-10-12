@@ -14,6 +14,7 @@ class Solution(object):
 		if (grid[count_row][count_col] == '0'):
 			return
 		
+		
 		grid[count_row][count_col] = '0'
 		
 		Solution.recursive_check(self, grid, count_row - 1, count_col, rows, columns)
