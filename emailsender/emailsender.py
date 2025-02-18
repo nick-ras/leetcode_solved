@@ -8,7 +8,7 @@ class emails():
 	def send_welcome_email(self):
 		email_sender = 'ttestesen81@gmail.com'
 		email_password= os.getenv('emailsender_pass')
-		email_reciever = "nick-ras@mail.dk"
+		email_reciever = "email"
 
 		em = EmailMessage()
 		subject = ''
